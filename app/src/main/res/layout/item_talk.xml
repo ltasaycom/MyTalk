@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_picture"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_profile"
+                tools:src="@drawable/ic_profile"
+                app:civ_border_color="@android:color/darker_gray"
+                app:civ_border_width="1dp"/>
+
+            <TextView
+                android:id="@+id/user_displayname"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/user_picture"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Luis Tasayco" />
+
+            <TextView
+                android:id="@+id/user_distancia"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="20 Km" />
+
+            <TextView
+                android:id="@+id/user_displaymail"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/user_picture"
+                android:layout_below="@+id/user_displayname"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:text="luis_tasaycom@hotmail.com" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

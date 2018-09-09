@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86877007201",
+    "firebase_url": "https://mytalk-dc247.firebaseio.com",
+    "project_id": "mytalk-dc247",
+    "storage_bucket": "mytalk-dc247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86877007201:android:559295e32f325990",
+        "android_client_info": {
+          "package_name": "com.example.luist.mytalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86877007201-3vpj1ofh4c4pdal3b52ghv9huo0d5c7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luist.mytalk",
+            "certificate_hash": "f1879f38658ea3cb7f62a7c1ffea7053789a9324"
+          }
+        },
+        {
+          "client_id": "86877007201-90n9is00vlbnlj24an4m8v76ao2as4gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoXzAtqcINl9_fBWpyadi49ygpzg7W1k8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86877007201-90n9is00vlbnlj24an4m8v76ao2as4gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

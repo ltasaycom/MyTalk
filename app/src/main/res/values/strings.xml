@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Talk</string>
+
+    <string name="SignIn">Inciar sesión</string>
+    <string name="Register">Registrar</string>
+
+    <string name="google_maps_api_key">AIzaSyB8DWyAbGb5uo8sSnVsv9LQPmT047Zeays</string>
+
+</resources>
