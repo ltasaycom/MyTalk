@@ -28,7 +28,7 @@
                 app:srcCompat="@drawable/ic_profile"
                 tools:src="@drawable/ic_profile"
                 app:civ_border_color="@android:color/darker_gray"
-                app:civ_border_width="1dp"/>
+                app:civ_border_width="4dp"/>
 
             <TextView
                 android:id="@+id/user_displayname"
